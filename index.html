@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Decodificador de texto</title>
+   <link rel="stylesheet" href="style.css">
+   <link rel='stylesheet'
+      href='https://cdn-uicons.flaticon.com/2.5.1/uicons-solid-rounded/css/uicons-solid-rounded.css'>
+</head>
+<body>
+<header>
+   <img class="logo" src="./assets/Logo.png" alt="Logo letra a minúscula">
+</header>
+<main>
+   <section class="primeira-section">
+      <textarea class="textarea" type="text" name="text" id="inputTexto" placeholder="Digite seu texto"></textarea>
+      <p class="info">
+      <i class="fi fi-sr-exclamation" ></i>
+       Apenas letras minúsculas e sem acento.
+      </p>
+   <div class="botoes-primeira-section">
+      <button class="criptografar" id="trocar" onclick="criptografar()">Criptografar</button>
+      <button class="descriptografar" onclick="descriptografar()">Descriptografar</button>
+   </div>
+   </section>
+
+   <section class="segunda-section">
+      <div class="retangulo" id="segundaSection">
+         <img class="imagem" src="./assets/High quality products 1 1@2x.png" alt="Menina com uma lupa">
+         <h1 class="h1-imagem">Nenhuma mensagem <br> encontrada</h1>
+         <p class="p-imagem">Digite um texto que você deseja <br> criptografar ou descriptografar.</p>
+      </div> 
+
+      <div class="segunda-section-depois">
+         <textarea class="textarea-segunda-section" type="text" id="outTexto" name="text-two"></textarea>
+         <button class="copiar" id="copiar" onclick="copiar()">Copiar</button>
+      </div>
+   </section>
+</main>
+<script src="script.js"></script>
+<footer>Desenvolvido por Rita lima| 2024</footer>
+</body>
+
+</html>
